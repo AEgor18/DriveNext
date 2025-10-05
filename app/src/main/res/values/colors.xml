@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="primary">#2A1246</color>
+    <color name="secondary">#1A1A1A</color>
+    <color name="carousel_button">#E4E7EC</color>
+    <color name="sign_up">#344054</color>
+    <color name="borders">#D0D5DD</color>
+    <color name="form_gray">#667085</color>
+    <color name="label">#404040</color>
+</resources>
