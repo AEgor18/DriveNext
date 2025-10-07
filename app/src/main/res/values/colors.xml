@@ -9,4 +9,5 @@
     <color name="borders">#D0D5DD</color>
     <color name="form_gray">#667085</color>
     <color name="label">#404040</color>
+    <color name="error">#B71C1C</color>
 </resources>

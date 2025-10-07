@@ -12,18 +12,26 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DriveNext">
         <activity
-            android:name=".MainActivity"
+            android:name=".LoadingActivity"
             android:exported="true">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".OnboardingActivity" />
+        <activity android:name=".OnboardingActivity"/>
+        <activity android:name=".StartingActivity"/>
+        <activity android:name=".SignInActivity" />
+        <activity android:name=".CreateAccount1Activity" />
+        <activity android:name=".CreateAccount2Activity" />
+        <activity android:name=".CreateAccount3Activity" />
+        <activity android:name=".SuccessActivity" />
         <meta-data
             android:name="preloaded_fonts"
             android:resource="@array/preloaded_fonts" />
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
     </application>
 
 </manifest>

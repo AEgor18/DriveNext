@@ -1,5 +1,6 @@
 package com.example.drivenext
 
+import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
@@ -64,11 +65,15 @@ class OnboardingActivity : AppCompatActivity() {
                 index++
                 updateUi()
             } else {
+                startActivity(Intent(this, StartingActivity::class.java))
                 finish()
             }
         }
 
-        skipTopText.setOnClickListener { finish() }
+        skipTopText.setOnClickListener {
+            startActivity(Intent(this, StartingActivity::class.java))
+            finish()
+        }
 
         dots.forEachIndexed { i, btn ->
             btn.setOnClickListener {
